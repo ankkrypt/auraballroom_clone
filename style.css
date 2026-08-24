@@ -244,6 +244,7 @@ li {
 .btn_explore_all_services {
     font-size: 1.5rem;
     padding: 1rem 2rem;
+    cursor : pointer;
 }
 
 .services_cards {
@@ -276,6 +277,11 @@ li {
 
 .services_card>h2 {
     padding-top: 1rem;
+    font-size: 0.5rem; 
+}
+
+.services_card>p{
+    font-size: 1.5rem;
 }
 
 
@@ -334,8 +340,13 @@ li {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background-color: var(--e-global-color-accent);
     margin-bottom: 1rem;
+}
+
+.card_icon svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--e-global-color-accent);
 }
 
 .btn_book_a_private_tour {
