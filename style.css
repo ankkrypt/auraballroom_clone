@@ -247,7 +247,6 @@ li {
 }
 
 .services_cards {
-    /* border: 3px solid red; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -415,7 +414,6 @@ li {
 
 /* a_glimpse_of_the_aura_experience_section */
 .a_glimpse_of_the_aura_experience_section{
-    border: 2px solid red;
     background-color: #2B1B14;
     padding : 4rem 0rem;
     display : flex;
@@ -464,6 +462,77 @@ li {
     cursor : pointer;
 }
 
+/* what_our_clients_say_section */
+.what_our_clients_say_section{
+    background-color: #F7F1E8;
+    color: #25120e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0rem;
+}
+
+.what_our_clients_say_section > h2 {
+    font-size: 2.5rem;
+}
+
+.what_our_clients_say_section > h1 {
+    font-size: 4rem;
+}
+
+.what_our_clients_say_section > p {
+    font-size: 1.5rem;
+}
+
+.customer_review_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 1rem;
+    padding: 6rem 6rem;
+}
+
+.customer_review_card{
+    background-color: var(--e-global-color-lightbrown);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    height: 70vh;
+}
+
+.customer_review_pfp > svg{
+    fill: #C9A04E;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.customer_review_stars{
+    color: #C9A04E;
+    font-size: 1.8rem;
+}
+
+.customer_review_text {
+    color: #D9CFC4;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+.customer_review_name {
+    color: #FFB858;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+.customer_review_event {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
 
 /* get in touch section */
 .get_in_touch_section h2 {
