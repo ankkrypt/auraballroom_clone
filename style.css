@@ -687,20 +687,23 @@ li {
 }
 
 /* get in touch section */
-.get_in_touch_section h2 {
-    color: var(--e-global-color-accent);
+.get_in_touch_section > h1 {
+    color: #FFB858;
     font-size: 2rem;
+    font-weight: 300;
 }
 
-.get_in_touch_section h1 {
-    color: var(--e-global-color-rosegold);
-    font-size: 3.5rem;
+.get_in_touch_section > h2 {
+    color: #FFCB84;
+    font-size: 4rem;
+    font-weight: 400;
     width: 70%;
 }
 
-.get_in_touch_section>p {
-    color: var(--e-global-color-white);
+.get_in_touch_section > p {
+    color: #D9CFC4;
     font-size: 1.2rem;
+    font-weight: 300;
     padding: 1rem;
     width: 70%;
     text-align: center;
@@ -714,6 +717,75 @@ li {
     text-align: center;
     padding: 4rem 0rem;
 }
+
+.contact_info_area{
+    width : 4rem;
+    padding : 4rem 8rem;
+    display : flex;
+    gap : 1rem;
+    width : 100%;
+}
+
+.contact_information{
+    background-color: #4A2E18;
+    border : 2px solid #C9A04E;
+    border-radius : 1rem;
+    width : 30vw;
+    padding : 2rem;
+    display : flex;
+    flex-direction : column;
+    gap : 2rem;
+}
+
+.contact_information > h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #E8C97A;
+    padding : 0.5rem 0rem;
+    text-align : left;
+}
+
+.info_item{
+    display : flex;
+    align-items : center;
+    gap: 1rem;
+}
+
+.info_item_icon > svg {
+    fill: #C9A04E;
+    height : 2.5rem;
+    width : 2.5rem;
+}
+
+.info_item_details{
+    display : flex;
+    flex-direction : column;
+    text-align : left;
+    gap : 1rem;
+}
+
+.info_item_heading {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.info_item_description{
+    color: #FFCB84;
+}
+
+.event_inquiry_form{
+    background-color: #4A2E18;
+    border : 2px solid #C9A04E;
+    border : 2px solid red;
+    border-radius : 1rem;
+    width : 70vw;
+    padding : 2rem;
+    display : flex;
+    flex-direction : column;
+    gap : 2rem; 
+}
+
 
 /* footer section */
 footer {
