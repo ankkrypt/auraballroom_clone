@@ -720,7 +720,7 @@ li {
 
 .contact_info_area{
     width : 4rem;
-    padding : 4rem 8rem;
+    padding : 4rem 6rem;
     display : flex;
     gap : 1rem;
     width : 100%;
@@ -777,17 +777,148 @@ li {
 .event_inquiry_form{
     background-color: #4A2E18;
     border : 2px solid #C9A04E;
-    border : 2px solid red;
     border-radius : 1rem;
-    width : 70vw;
+    width : 70%;
     padding : 2rem;
     display : flex;
     flex-direction : column;
+    align-items : flex-start;
     gap : 2rem; 
 }
 
+.event_inquiry_form > h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #E8C97A;
+    text-align : left;
+}
 
-/* footer section */
+.event_inquiry_form > p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align : left;
+}
+.event-inquiry-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+}
+
+
+.form-row {
+    display: flex;
+    gap: 1.5rem; 
+    width: 100%;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex: 1; 
+    width: 100%;
+}
+
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    flex: 1;
+    width: 100%;
+}
+
+
+.form-group > label {
+    color: #ffb858; 
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+
+.field-container > label {
+    color: #FFCB84;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 0.2rem;
+}
+
+.event-inquiry-form label .required {
+    color: #ff4d4d; 
+    font-weight: bold;
+    margin-left: 2px; 
+}
+
+
+.event-inquiry-form input[type="text"],
+.event-inquiry-form input[type="tel"],
+.event-inquiry-form input[type="email"],
+.event-inquiry-form input[type="date"],
+.event-inquiry-form input[type="number"],
+.event-inquiry-form select,
+.event-inquiry-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #5A3A20; 
+    border: 1px solid #C9A04E; 
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    outline: none;
+    font-family: inherit;
+    transition: border-color 0.2s ease-in-out;
+}
+
+
+.event-inquiry-form input:focus,
+.event-inquiry-form select:focus,
+.event-inquiry-form textarea:focus {
+    border-color: #FFB858; 
+}
+
+
+.event-inquiry-form select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://w3.org' viewBox='0 0 24 24' fill='%23C9A04E'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.5rem;
+    padding-right: 2.5rem;
+}
+
+
+.event-inquiry-form textarea {
+    resize: vertical;
+    min-height: 8rem;
+}
+
+
+.submit-btn {
+    background: none;
+    border: none;
+    color: #FFB858; 
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0.5rem 0rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.2s ease;
+}
+
+.submit-btn:hover {
+    color: #FFFFFF; 
+}
+
+
+
 footer {
     background-color: var(--e-global-color-darkestbrown);
     color: var(--e-global-color-white);
