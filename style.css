@@ -1128,7 +1128,8 @@ footer {
     font-weight: 300;
 }
 
-.footer-nav a, li {
+.footer-nav a, 
+.footer-nav li {
     color: var(--e-global-color-white);
     text-decoration: none;
     font-family: "Poppins", Sans-serif;
