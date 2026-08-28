@@ -1,3 +1,33 @@
+@font-face {
+    font-family : inter;
+    src : url("./public/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display :swap;
+}
+@font-face {
+    font-family : inter;
+    src : url("./public/assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
+    font-display :swap;
+}
+@font-face {
+    font-family : Nanum Myeongjo ExtraBold;
+    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-ExtraBold.ttf") format("truetype");
+    font-display :swap;
+}
+@font-face {
+    font-family : Nanum Myeongjo Bold;
+    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Bold.ttf") format("truetype");
+    font-display :swap;
+}
+@font-face {
+    font-family : Nanum Myeongjo;
+    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf") format("truetype");
+    font-display :swap;
+}
+
 :root {
     /* Brand Colors */
     --e-global-color-primary: #25120E;
@@ -91,7 +121,10 @@ li {
     padding: 0 6rem;
     height: 6rem;
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+    font-family: "Inter", Sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .navbar>ul {
@@ -102,7 +135,6 @@ li {
 
 .navbar>ul>li {
     position: relative;
-    font-size: 1.2rem;
 }
 
 .navbar>ul>li>a,
@@ -194,46 +226,62 @@ li {
 }
 
 .bg_video_text_overlay>h2 {
-    color: var(--e-global-color-accent);
-    font-size: 2.5rem;
+    color: #FFB858;
     padding: 1rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .bg_video_text_overlay>h1 {
-    color: var(--e-global-color-skin);
-    font-size: 3.5rem;
-    padding: 1rem;
+    color: #ffdca6;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.3em;
+;
 }
 
 /* hero_2 section */
 .hero_2 h2 {
-    font-size: 2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #25120e;
 }
 
 .hero_2 h1 {
-    font-size: 3.5rem;
-    padding: 1rem;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .hero_2 p {
-    font-size: 1.2rem;
+    color: #25120e;
     padding: 1rem;
-    width: 50%;
+    width: 60%;
     text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 
 .btn_book_a_venue {
     background: var(--e-global-color-lightbrown);
     color: var(--e-global-color-rosegold);
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1.5rem;
     border: 1px solid var(--e-global-color-skin);
     border-radius: 2rem;
-    height: 3rem;
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    justify-content: center;
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* features section */
@@ -252,32 +300,44 @@ li {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 
 /* services section */
 .services h2 {
-    font-size: 2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .services h1 {
     color: var(--e-global-color-rosegold);
-    font-size: 3.5rem;
     width: 60%;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .services>div>p {
     color: var(--e-global-color-white);
-    font-size: 1.2rem;
     padding: 1rem;
     width: 60%;
     text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .btn_explore_all_services {
-    font-size: 1.5rem;
     padding: 1rem 2rem;
-    cursor: pointer;
+    cursor: pointer;    
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .services_cards {
@@ -308,34 +368,46 @@ li {
 
 .services_card>h2 {
     padding-top: 1rem;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 36px;
+    font-weight: 400;
 }
 
 .services_card>p {
     color: var(--e-global-color-white);
-    font-size: 1.4rem;
     padding: 1rem;
     text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 
 /* why choose auraballroom section */
 .why_choose_aura_ballroom h2 {
     color: var(--e-global-color-primary);
-    font-size: 2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .why_choose_aura_ballroom h1 {
     color: var(--e-global-color-primary);
-    font-size: 3.5rem;
     width: 60%;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .why_choose_aura_ballroom>p {
     color: var(--e-global-color-primary);
-    font-size: 1.2rem;
     padding: 1rem;
     width: 60%;
     text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .cards_container {
@@ -361,12 +433,18 @@ li {
 
 .cards_container>.card>h2 {
     color: var(--e-global-color-accent);
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 0rem;    
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
 }
 
 .cards_container>.card>p {
     padding-top: 1rem;
     color: var(--e-global-color-white);
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .card_icon {
@@ -389,7 +467,9 @@ li {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 /* our venue section */
@@ -404,13 +484,18 @@ li {
 
 .our_venue_section>h2 {
     color: var(--e-global-color-accent);
-    font-size: 2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .our_venue_section>h1 {
     color: var(--e-global-color-rosegold);
-    font-size: 3.5rem;
     width: 60%;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .our_venue_content {
@@ -441,10 +526,16 @@ li {
 
 .our_venue_feature>h2 {
     padding: 1rem;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .our_venue_feature>p {
     padding: 1rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 /* a_glimpse_of_the_aura_experience_section */
@@ -459,8 +550,10 @@ li {
 
 .a_glimpse_of_the_aura_experience_section>h2 {
     color: var(--e-global-color-accent);
-    font-size: 2rem;
     padding: 1rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 300;
 }
 
 .a_glimpse_of_the_aura_experience_category_bar {
@@ -492,9 +585,11 @@ li {
 
 .btn_explore_full_gallery {
     color: var(--e-global-color-accent);
-    font-size: 1.5rem;
     padding: 4rem 0rem;
     cursor: pointer;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 /* what_our_clients_say_section */
@@ -508,15 +603,22 @@ li {
 }
 
 .what_our_clients_say_section>h2 {
-    font-size: 2.5rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .what_our_clients_say_section>h1 {
-    font-size: 4rem;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .what_our_clients_say_section>p {
-    font-size: 1.5rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .customer_review_container {
@@ -547,26 +649,34 @@ li {
 
 .customer_review_stars {
     color: #C9A04E;
-    font-size: 1.8rem;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .customer_review_text {
     color: #D9CFC4;
     text-align: center;
     padding: 1rem 0rem;
-    font-size: 1.2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .customer_review_name {
     color: #FFB858;
     text-align: center;
     padding: 1rem 0rem;
-    font-size: 1.2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .customer_review_event {
     color: #FFFFFF;
-    font-size: 1.2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* where_we_serve_section */
@@ -580,23 +690,26 @@ li {
 }
 
 .where_we_serve_section>h2 {
-    font-family: "Poppins", Sans-serif;
     color: #FFB858;
-    font-size: 2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
 .where_we_serve_section>h1 {
     color: #FFCB84;
-    font-size: 4rem;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 60px;
     font-weight: 400;
 }
 
 .where_we_serve_section>p {
     color: #FFFFFF;
-    font-size: 1.2rem;
     max-width: 800px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .capsule_pointers {
@@ -624,8 +737,10 @@ li {
 
 .capsule_text {
     color: #FFFFFF;
-    text-align: left;
-    font-size: 1.4rem;
+    text-align: left;    
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .map>iframe {
@@ -646,7 +761,9 @@ li {
 }
 
 .service_areas_section>h1 {
-    font-size: 2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 300;
 }
 
 .areas_list {
@@ -656,6 +773,9 @@ li {
     padding: 2rem 0rem;
     gap: 0.5rem;
     width: 80%;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .areas_list>li:not(:last-child)::after {
@@ -675,15 +795,17 @@ li {
 }
 
 .begin_your_journey_section>h1 {
-    font-size: 2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
 .begin_your_journey_section>h2 {
-    font-size: 4rem;
-    font-weight: 400;
     width: 70%;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .divider_v1 {
@@ -695,8 +817,10 @@ li {
 }
 
 .begin_your_journey_section>p {
-    font-size: 1.2rem;
     width: 70%;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .buttons_bar {
@@ -710,8 +834,10 @@ li {
     color: #FFB858;
     border: 2px solid #FFB858;
     border-radius: 2rem;
-    font-size: 1.2rem;
     padding: 0.5rem 1rem;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .check_availability_btn {
@@ -721,29 +847,36 @@ li {
     border-radius: 2rem;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* get in touch section */
 .get_in_touch_section>h1 {
     color: #FFB858;
-    font-size: 2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
     font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .get_in_touch_section>h2 {
     color: #FFCB84;
-    font-size: 4rem;
-    font-weight: 400;
     width: 70%;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .get_in_touch_section>p {
     color: #D9CFC4;
-    font-size: 1.2rem;
-    font-weight: 300;
     padding: 1rem;
     width: 70%;
     text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .get_in_touch_section {
@@ -775,11 +908,12 @@ li {
 }
 
 .contact_information>h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
     color: #E8C97A;
     padding: 0.5rem 0rem;
     text-align: left;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .info_item {
@@ -803,12 +937,16 @@ li {
 
 .info_item_heading {
     color: #FFFFFF;
-    font-size: 1.2rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
     font-weight: 300;
 }
 
 .info_item_description {
     color: #FFCB84;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .event_inquiry_form {
@@ -824,17 +962,19 @@ li {
 }
 
 .event_inquiry_form>h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
     color: #E8C97A;
     text-align: left;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .event_inquiry_form>p {
-    font-size: 1.3rem;
-    font-weight: 400;
     color: #FFFFFF;
     text-align: left;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .event-inquiry-form {
@@ -956,7 +1096,7 @@ li {
 }
 
 
-
+/* footer */
 footer {
     background-color: var(--e-global-color-darkestbrown);
     color: var(--e-global-color-white);
@@ -983,11 +1123,17 @@ footer {
 
 .footer-nav h2 {
     color: var(--e-global-color-accent);
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 
-.footer-nav a {
+.footer-nav a, li {
     color: var(--e-global-color-white);
     text-decoration: none;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .footer_brand_space {
@@ -1005,8 +1151,10 @@ footer {
 
 .footer_brand_description {
     text-align: left;
-    font-size: 1.2rem;
-    width: 20vw
+    width: 20vw;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .footer_copyright_bar {
@@ -1014,5 +1162,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 0 0;
-    color: var(--e-global-color-accent)
+    color: var(--e-global-color-accent);
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
 }
