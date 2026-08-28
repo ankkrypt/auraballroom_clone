@@ -1,0 +1,67 @@
+@keyframes slide-in-from-left {
+	from {
+		opacity: 0;
+		transform: translateX(-8rem);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slide-in-from-right {
+	from {
+		opacity: 0;
+		transform: translateX(8rem);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slide-in-from-bottom {
+	from {
+		opacity: 0;
+		transform: translateY(8rem);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-from-left,
+.animate-from-right,
+.animate-from-bottom {
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+	animation-timeline: view();
+	animation-range: entry 0% cover 35%;
+}
+
+.animate-from-left {
+	animation-name: slide-in-from-left;
+}
+
+.animate-from-right {
+	animation-name: slide-in-from-right;
+}
+
+.animate-from-bottom {
+    animation-name: slide-in-from-bottom;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.animate-from-left,
+	.animate-from-right,
+	.animate-from-bottom {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+}
