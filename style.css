@@ -305,6 +305,68 @@ li {
     font-weight: 300;
 }
 
+/* carousal_section */
+
+.carousal_section{
+    background-color: var(--e-global-color-brown);
+    position : relative;
+    padding: 1rem;
+}
+
+.carousal_slider{
+    position : relative;
+    background-color : blue;
+    height : 60vh;
+    width : 100%;
+    overflow : hidden;
+    border-radius: 1rem;
+}
+
+.carousal_item > img{
+    position : absolute;
+    top : 0;
+    left : 50%;
+    height : 100%;
+    width : 100%;
+    transform : translateX(-50%);
+    object-fit : cover;
+    object-position : center center;
+}
+
+.carousal_item{
+    opacity: 0;
+    visibility: hidden;
+    z-index: 0;
+}
+
+.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+}
+
+.carousal_controls{
+    display : flex;
+    justify-content : space-between;
+    position : absolute;
+    z-index : 9;
+    top : 50%;
+    width: 100%;
+    transform : translateY(-50%);
+    transform : translateX(-1%);
+}
+
+.carousal_controls > button{
+    background: linear-gradient(180deg, #E3A64F 0%, #AD6908 100%);
+    color: var(--e-global-color-primary);
+    padding: 2rem 0.5rem;
+    border: 1px solid var(--e-global-color-skin);
+    border-radius: 2rem;
+    height: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
 
 /* services section */
 .services h2 {
