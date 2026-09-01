@@ -16,14 +16,10 @@
 
 #send_us_an_inquiry_container > h1 {
     font-family: "Nanum Myeongjo", Sans-serif;
-    font-size: 78px;
-    font-weight: 400;
 }
 
 #send_us_an_inquiry_container > p {
     font-family: "Poppins", Sans-serif;
-    font-size: 18px;
-    font-weight: 300;
 }
 
 #submit_form_btn{
