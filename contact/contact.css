@@ -1,0 +1,36 @@
+@font-face{
+    font-family : "Nanum Myeongjo";
+    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family : "Inter";
+    src : url("./public/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+
+#send_us_an_inquiry_container {
+    background-color: #583614;
+    color: #FFCB84;
+}
+
+#send_us_an_inquiry_container > h1 {
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 78px;
+    font-weight: 400;
+}
+
+#send_us_an_inquiry_container > p {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#submit_form_btn{
+    color : #FFCB84;
+    background-color : #583614;
+}
+
+#submit_form_btn:hover {
+    opacity : 0.7;
+}
