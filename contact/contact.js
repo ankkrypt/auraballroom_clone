@@ -75,7 +75,7 @@ form.addEventListener("submit", async (event) => {
         // EventDate validations
         if (EventDate === "") {
             throw Error("Enter Event Date");
-        }   
+        }
         const selectedDate = new Date(EventDate);
         const minAllowedDate = new Date();
         minAllowedDate.setMonth(minAllowedDate.getMonth() + 3);
@@ -85,12 +85,14 @@ form.addEventListener("submit", async (event) => {
 
 
         // GuestCount validations
-        const digitsOnlyRegex = /^[0-9]+$/;
-        if (!digitsOnlyRegex.test(GuestCount)) {
-            throw Error("Guest Count must be a valid whole number");
-        }
-        if (parseInt(GuestCount, 10) <= 0) {
-            throw Error("Guest Count must be greater than zero");
+        if (GuestCount.trim() !== "") {
+            const digitsOnlyRegex = /^[0-9]{,3}$/;
+            if (!digitsOnlyRegex.test(GuestCount)) {
+                throw Error("Guest Count must be a valid whole number");
+            }
+            if (parseInt(GuestCount, 10) <= 0) {
+                throw Error("Guest Count must be greater than zero");
+            }
         }
 
 
@@ -120,6 +122,6 @@ form.addEventListener("submit", async (event) => {
         }
 
     } catch (Error) {
-        alert(Error.message);
+        await alert(Error.message);
     }
 });
