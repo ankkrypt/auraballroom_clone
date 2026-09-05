@@ -86,12 +86,12 @@ form.addEventListener("submit", async (event) => {
 
         // GuestCount validations
         if (GuestCount.trim() !== "") {
-            const digitsOnlyRegex = /^[0-9]{,3}$/;
-            if (!digitsOnlyRegex.test(GuestCount)) {
-                throw Error("Guest Count must be a valid whole number");
-            }
+            const digitsOnlyRegex = /^[0-9]{0,3}$/;
             if (parseInt(GuestCount, 10) <= 0) {
                 throw Error("Guest Count must be greater than zero");
+            }
+            if (!digitsOnlyRegex.test(GuestCount)) {
+                throw Error("Guest Count must be a valid whole number");
             }
         }
 
