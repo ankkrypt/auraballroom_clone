@@ -1,3 +1,10 @@
+/* 
+Theme Name: Auraballroom_Theme
+Description: Auraballroom Website - Clone in one click
+Author: Ankit Dhotre
+version: 1.0.0
+*/
+
 @font-face {
     font-family : inter;
     src : url("./public/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");

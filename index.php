@@ -1,0 +1,660 @@
+
+    <?php get_header(); ?>
+    <main>
+        <section class="hero_1">
+            <div class="bg_video_section">
+                <video autoplay muted loop playsinline>
+                    <source
+                        src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/videos/hero.mov' ); ?>" />
+                    video is not supported by browser
+                </video>
+                <div class="bg_video_text_overlay">
+                    <h2>Where Moments Become Timeless</h2>
+                    <h1>Luxury Wedding Venue & Banquet Hall in Plainview, Long Island, NY</h1>
+                </div>
+            </div>
+        </section>
+        <section class="hero_2">
+            <div class="light_bg_section">
+                <h2>YOUR PERFECT EVENT SPACE</h2>
+                <h1>Host Unforgettable Events at Aura Ballroom</h1>
+                <div class="divider"><img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/aura-ballroom-gold-divider.png' ); ?>"
+                        alt="aura ballroom gold divider"></div>
+                <p>From intimate weddings and elegant corporate galas to milestone birthday celebrations and private
+                    gatherings, Aura Ballroom offers a seamlessly curated event experience designed to host up to 300
+                    guests in the heart of Plainview, Long Island.</p>
+                <div class="btn_book_a_venue">
+                    Book a Venue ➔
+                </div>
+            </div>
+        </section>
+        <section class="feature_bar">
+            <ul>
+                <li>✦ Located in Plainview, NY</li>
+                <li>✦ Crystal Chandeliers</li>
+                <li>✦ Outdoor Spaces</li>
+                <li>✦ Professional Coordination</li>
+                <li>✦ Custom Layouts</li>
+                <li>✦ 300 Guest Capacity</li>
+            </ul>
+        </section>
+        <section class="carousal_section">
+            <div class="carousal_slider">
+                <div class="carousal_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-1-300x174.jpg' ); ?>"
+                        alt="aura ballroom wedding reception hall" />
+                </div>
+                <div class="carousal_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-2-300x174.jpg' ); ?>"
+                        alt="aura ballroom wedding reception hall" />
+                </div>
+                <div class="carousal_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-3-300x174.jpg' ); ?>"
+                        alt="aura ballroom wedding reception hall" />
+                </div>
+                <div class="carousal_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-4-300x174.jpg' ); ?>"
+                        alt="aura ballroom wedding reception hall" />
+                </div>
+                <div class="carousal_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-5-300x174.jpg' ); ?>"
+                        alt="aura ballroom wedding reception hall" />
+                </div>
+                <div class="carousal_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-6-300x174.jpg' ); ?>"
+                        alt="aura ballroom wedding reception hall" />
+                </div>
+            </div>
+            <div class="carousal_controls">
+                <button class="btn_carousal_prev">◀</button>
+                <button class="btn_carousal_next">▶</button>
+            </div>
+        </section>
+        <section class="services">
+            <div class="brown_bg_section">
+                <h2>Our Services</h2>
+                <h1>Exceptional Event Experiences in Long Island, NY</h1>
+                <div class="divider">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/aura-ballroom-gold-divider.png' ); ?>" alt="aura ballroom gold divider">
+                </div>
+                <p>
+                    From elegant weddings to corporate events and private celebrations, Aura Ballroom offers a versatile
+                    venue, personalized service, and seamless event planning for gatherings of up to 300 guests in
+                    Plainview, Long Island.
+                </p>
+                <div class="services_cards">
+                    <div class="services_card animate-from-left">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/HomeServicesSection/aura-ballroom-wedding-ceremony-hall.png' ); ?>"
+                            alt="Service 1" />
+                        <h2>Weddings & Receptions</h2>
+                        <p>From elegant weddings to corporate events and private celebrations, Aura Ballroom offers a
+                            versatile venue, personalized service, and seamless event planning for gatherings of up to
+                            300 guests in Plainview, Long Island.</p>
+                        <div class="btn_explore_all_services">
+                            Explore ➔
+                        </div>
+                    </div>
+                    <div class="services_card animate-from-right">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/HomeServicesSection/aura-ballroom-reception-hall-decor.png' ); ?>"
+                            alt="Service 1" />
+                        <h2>Corporate Events & Business Gatherings</h2>
+                        <p>Host impactful meetings, conferences, networking events, and company celebrations in a
+                            professional venue designed for comfort, convenience, and success.</p>
+                        <div class="btn_explore_all_services">
+                            Explore ➔
+                        </div>
+                    </div>
+                    <div class="services_card animate-from-left">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/HomeServicesSection/aura-ballroom-ballroom-lighting.png' ); ?>"
+                            alt="Service 1" />
+                        <h2>Private Parties & Social Celebrations</h2>
+                        <p>Celebrate birthdays, anniversaries, baby showers, graduations, and special occasions with
+                            personalized event experiences tailored to your vision.</p>
+                        <div class="btn_explore_all_services">
+                            Explore ➔
+                        </div>
+                    </div>
+                    <div class="services_card animate-from-right">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/HomeServicesSection/aura-ballroom-wedding-banquet-tables.png' ); ?>"
+                            alt="Service 1" />
+                        <h2>Catering & Dining</h2>
+                        <p>Enjoy customized menus, exceptional cuisine, and attentive service that elevate every event
+                            with memorable dining experiences.</p>
+                        <div class="btn_explore_all_services">
+                            Explore ➔
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why_choose_aura_ballroom light_bg_section">
+            <h2>Why Choose Aura Ballroom</h2>
+            <h1>Plainview's Most Trusted Luxury Event Venue</h1>
+            <div class="divider">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/aura-ballroom-gold-divider.png' ); ?>" alt="aura ballroom gold divider">
+            </div>
+            <p>A refined venue experience goes beyond beautiful interiors. Aura Ballroom combines sophisticated event
+                spaces, personalized hospitality, modern amenities, and professional coordination to create celebrations
+                that feel effortless from beginning to end.</p>
+            <div class="cards_container">
+                <div class="card animate-from-left">
+                    <div class="card_icon">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-star-of-life" viewBox="0 0 480 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M471.99 334.43L336.06 256l135.93-78.43c7.66-4.42 10.28-14.2 5.86-21.86l-32.02-55.43c-4.42-7.65-14.21-10.28-21.87-5.86l-135.93 78.43V16c0-8.84-7.17-16-16.01-16h-64.04c-8.84 0-16.01 7.16-16.01 16v156.86L56.04 94.43c-7.66-4.42-17.45-1.79-21.87 5.86L2.15 155.71c-4.42 7.65-1.8 17.44 5.86 21.86L143.94 256 8.01 334.43c-7.66 4.42-10.28 14.21-5.86 21.86l32.02 55.43c4.42 7.65 14.21 10.27 21.87 5.86l135.93-78.43V496c0 8.84 7.17 16 16.01 16h64.04c8.84 0 16.01-7.16 16.01-16V339.14l135.93 78.43c7.66 4.42 17.45 1.8 21.87-5.86l32.02-55.43c4.42-7.65 1.8-17.43-5.86-21.85z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h2>Elegant Ballroom Ambiance</h2>
+                    <p>Crystal chandeliers, modern interiors, and flexible layouts designed to elevate every
+                        celebration.
+                    </p>
+                </div>
+                <div class="card animate-from-bottom">
+                    <div class="card_icon">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-user-friends" viewBox="0 0 640 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32 80 82.1 80 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zM480 256c53 0 96-43 96-96s-43-96-96-96-96 43-96 96 43 96 96 96zm48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4 24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48 0-61.9-50.1-112-112-112z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h2>Accommodates Up to 300 Guests</h2>
+                    <p>Spacious event settings ideal for intimate gatherings and large-scale celebrations alike.
+                    </p>
+                </div>
+                <div class="card animate-from-right">
+                    <div class="card_icon">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-utensils" viewBox="0 0 416 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h2>Customized Catering Experience</h2>
+                    <p>Curated dining options tailored to weddings, corporate functions, and private events.
+                    </p>
+                </div>
+                <div class="card animate-from-left">
+                    <div class="card_icon">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h2>Prime Plainview Location</h2>
+                    <p>Conveniently located in Long Island with easy access, free parking, and guest-friendly
+                        accessibility.
+                    </p>
+                </div>
+                <div class="card animate-from-bottom">
+                    <div class="card_icon">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-headset" viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M192 208c0-17.67-14.33-32-32-32h-16c-35.35 0-64 28.65-64 64v48c0 35.35 28.65 64 64 64h16c17.67 0 32-14.33 32-32V208zm176 144c35.35 0 64-28.65 64-64v-48c0-35.35-28.65-64-64-64h-16c-17.67 0-32 14.33-32 32v112c0 17.67 14.33 32 32 32h16zM256 0C113.18 0 4.58 118.83 0 256v16c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-16c0-114.69 93.31-208 208-208s208 93.31 208 208h-.12c.08 2.43.12 165.72.12 165.72 0 23.35-18.93 42.28-42.28 42.28H320c0-26.51-21.49-48-48-48h-32c-26.51 0-48 21.49-48 48s21.49 48 48 48h181.72c49.86 0 90.28-40.42 90.28-90.28V256C507.42 118.83 398.82 0 256 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h2>Professional Event Coordination</h2>
+                    <p>Dedicated support to help ensure every detail of your event is thoughtfully managed.
+                    </p>
+                </div>
+                <div class="card animate-from-right">
+                    <div class="card_icon">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-wifi" viewBox="0 0 640 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M634.91 154.88C457.74-8.99 182.19-8.93 5.09 154.88c-6.66 6.16-6.79 16.59-.35 22.98l34.24 33.97c6.14 6.1 16.02 6.23 22.4.38 145.92-133.68 371.3-133.71 517.25 0 6.38 5.85 16.26 5.71 22.4-.38l34.24-33.97c6.43-6.39 6.3-16.82-.36-22.98zM320 352c-35.35 0-64 28.65-64 64s28.65 64 64 64 64-28.65 64-64-28.65-64-64-64zm202.67-83.59c-115.26-101.93-290.21-101.82-405.34 0-6.9 6.1-7.12 16.69-.57 23.15l34.44 33.99c6 5.92 15.66 6.32 22.05.8 83.95-72.57 209.74-72.41 293.49 0 6.39 5.52 16.05 5.13 22.05-.8l34.44-33.99c6.56-6.46 6.33-17.06-.56-23.15z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h2>Modern Venue Amenities</h2>
+                    <p>AV setup, WiFi access, outdoor spaces, and seamless event functionality for every occasion.
+                    </p>
+                </div>
+            </div>
+            <div class="btn_book_a_private_tour">
+                Book Private Tour ➔
+            </div>
+        </section>
+        <section class="our_venue_section">
+            <h2>Our Venue</h2>
+            <h1>Discover the Aura Experience</h1>
+            <div class="divider">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/aura-ballroom-gold-divider.png' ); ?>" alt="aura ballroom gold divider">
+            </div>
+            <div class="our_venue_content">
+                <div class="our_venue_image animate-from-left">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/OurVenue/aura-ballroom-wedding-couple-portrait.png' ); ?>"
+                        alt="aura ballroom wedding couple portrait">
+                </div>
+                <div class="our_venue_features">
+                    <div class="our_venue_feature">
+                        <h2>The Grand Ballroom</h2>
+                        <p>Soaring ceilings, cascading crystal chandeliers, and sweeping natural light set the stage for
+                            Long Island’s most memorable events. Accommodating up to 300 guests, our grand ballroom
+                            adapts beautifully to everything from elegant wedding receptions to sophisticated corporate
+                            gatherings.</p>
+                    </div>
+                    <div class="our_venue_feature">
+                        <h2>Outdoor Spaces</h2>
+                        <p>Extend your celebration beyond the ballroom into beautifully appointed outdoor spaces ideal
+                            for cocktail hours, intimate ceremonies, open-air receptions, and relaxed guest experiences
+                            beneath the Long Island sky.</p>
+                    </div>
+                    <div class="our_venue_feature">
+                        <h2>Flexible Layouts</h2>
+                        <p>Every event deserves a personalized setting. Our team customizes seating arrangements,
+                            staging, and floor plans to suit weddings, corporate functions, cocktail receptions, and
+                            uniquely tailored celebrations of every size.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="a_glimpse_of_the_aura_experience_section">
+            <h2>A Glimpse of the Aura Experience</h2>
+            <div class="a_glimpse_of_the_aura_experience_category_bar">
+                <div class="a_glimpse_of_the_aura_experience_category_item">
+                    All
+                </div>
+                <div class="a_glimpse_of_the_aura_experience_category_item">
+                    WEDDINGS
+                </div>
+                <div class="a_glimpse_of_the_aura_experience_category_item">
+                    CORPORATE EVENTS
+                </div>
+                <div class="a_glimpse_of_the_aura_experience_category_item">
+                    PRIVATE COLABORATIONS
+                </div>
+                <div class="a_glimpse_of_the_aura_experience_category_item">
+                    BALLROOM INTERIORS
+                </div>
+                <div class="a_glimpse_of_the_aura_experience_category_item">
+                    RECEPTION SETUPS
+                </div>
+            </div>
+            <div class="photo_grid">
+                <div class="photo_grid_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-1-300x174.jpg' ); ?>"
+                        alt="aura ballroom corporate event image">
+                </div>
+                <div class="photo_grid_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-2-300x174.jpg' ); ?>"
+                        alt="aura ballroom corporate event image">
+                </div>
+                <div class="photo_grid_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-3-300x174.jpg' ); ?>"
+                        alt="aura ballroom corporate event image">
+                </div>
+                <div class="photo_grid_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-4-300x174.jpg' ); ?>"
+                        alt="aura ballroom corporate event image">
+                </div>
+                <div class="photo_grid_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-5-300x174.jpg' ); ?>"
+                        alt="aura ballroom corporate event image">
+                </div>
+                <div class="photo_grid_item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/a glimpse of aura experience/aura-ballroom-corporate-event-6-300x174.jpg' ); ?>"
+                        alt="aura ballroom corporate event image">
+                </div>
+            </div>
+            <div class="btn_explore_full_gallery">
+                Explore Full Gallery ➔
+            </div>
+        </section>
+        <section class="what_our_clients_say_section">
+            <h2>What Our Clients Say</h2>
+            <h1>Real Celebrations. Real Stories.</h1>
+            <div class="divider">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/aura-ballroom-gold-divider.png' ); ?>" alt="aura ballroom gold divider">
+            </div>
+            <p>
+                From intimate gatherings to grand celebrations, here is what our guests experience at Aura Ballroom.
+            </p>
+            <div class="customer_review_container animate-from-right">
+                <div class="customer_review_card">
+                    <div class="customer_review_pfp">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-user-circle" viewBox="0 0 496 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="customer_review_stars">
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                    </div>
+                    <p class="customer_review_text">We hosted our company’s
+                        annual gala at Aura Ballroom and the experience was flawless. Professional setup,
+                        outstanding catering, and a venue that genuinely impressed our entire team and clients.
+                    </p>
+                    <div class="customer_review_name">
+                        Rouses Almazan
+                    </div>
+                    <div class="customer_review_event">
+                        Annual Gala • Plainview, NY
+                    </div>
+                </div>
+                <div class="customer_review_card">
+                    <div class="customer_review_pfp">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-user-circle" viewBox="0 0 496 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="customer_review_stars">
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ☆
+                        </span>
+                    </div>
+                    <p class="customer_review_text">We recently hosted our
+                        event at Aura Ballroom and had a wonderful experience. The elegant venue, attentive staff, and
+                        seamless service made our celebration truly memorable. Highly recommended for any special
+                        occasion.
+                    </p>
+                    <div class="customer_review_name">
+                        Harmanpreet Singh
+                    </div>
+                    <div class="customer_review_event">
+                        Personal Event • Plainview, NY
+                    </div>
+                </div>
+                <div class="customer_review_card">
+                    <div class="customer_review_pfp">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-user-circle" viewBox="0 0 496 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="customer_review_stars">
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                        <span class="customer_review_star_filled">
+                            ★
+                        </span>
+                    </div>
+                    <p class="customer_review_text">Our event at Aura Ballroom
+                        was an incredible experience. The spacious venue, delicious food, attentive staff, and
+                        exceptional hospitality made the celebration seamless, enjoyable, and truly memorable. Highly
+                        recommended!
+                    </p>
+                    <div class="customer_review_name">
+                        Ellen Riess
+                    </div>
+                    <div class="customer_review_event">
+                        Personal Event • Plainview, NY
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="where_we_serve_section">
+            <h2>Where We Serve</h2>
+            <h1>Proudly Serving Long Island & the Greater Nassau County Area</h1>
+            <div class="divider">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/aura-ballroom-gold-divider.png' ); ?>" alt="aura ballroom gold divider">
+            </div>
+            <p>Conveniently located at 215 Sunnyside Blvd, Plainview, NY, Aura Ballroom is easily accessible from across
+                Long Island, Nassau County, and Suffolk County. Whether you are planning an event in Hicksville,
+                Melville, or Huntington, our venue is your premier destination for luxury celebrations.
+            </p>
+            <div class="capsule_pointers">
+                <div class="capsule">
+                    <div class="capsule_icon">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="capsule_text">
+                        215 Sunnyside Blvd, Plainview, NY 11803 Inside Holiday Inn Plainview
+                    </p>
+                </div>
+                <div class="capsule">
+                    <div class="capsule_icon">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-car" viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M499.99 176h-59.87l-16.64-41.6C406.38 91.63 365.57 64 319.5 64h-127c-46.06 0-86.88 27.63-103.99 70.4L71.87 176H12.01C4.2 176-1.53 183.34.37 190.91l6 24C7.7 220.25 12.5 224 18.01 224h20.07C24.65 235.73 16 252.78 16 272v48c0 16.12 6.16 30.67 16 41.93V416c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-32h256v32c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-54.07c9.84-11.25 16-25.8 16-41.93v-48c0-19.22-8.65-36.27-22.07-48H494c5.51 0 10.31-3.75 11.64-9.09l6-24c1.89-7.57-3.84-14.91-11.65-14.91zm-352.06-17.83c7.29-18.22 24.94-30.17 44.57-30.17h127c19.63 0 37.28 11.95 44.57 30.17L384 208H128l19.93-49.83zM96 319.8c-19.2 0-32-12.76-32-31.9S76.8 256 96 256s48 28.71 48 47.85-28.8 15.95-48 15.95zm320 0c-19.2 0-48 3.19-48-15.95S396.8 256 416 256s32 12.76 32 31.9-12.8 31.9-32 31.9z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="capsule_text">
+                        Free Parking for 200+ Guests Ample on-site parking
+                    </p>
+                </div>
+                <div class="capsule">
+                    <div class="capsule_icon">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-wheelchair" viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M496.101 385.669l14.227 28.663c3.929 7.915.697 17.516-7.218 21.445l-65.465 32.886c-16.049 7.967-35.556 1.194-43.189-15.055L331.679 320H192c-15.925 0-29.426-11.71-31.679-27.475C126.433 55.308 128.38 70.044 128 64c0-36.358 30.318-65.635 67.052-63.929 33.271 1.545 60.048 28.905 60.925 62.201.868 32.933-23.152 60.423-54.608 65.039l4.67 32.69H336c8.837 0 16 7.163 16 16v32c0 8.837-7.163 16-16 16H215.182l4.572 32H352a32 32 0 0 1 28.962 18.392L438.477 396.8l36.178-18.349c7.915-3.929 17.517-.697 21.446 7.218zM311.358 352h-24.506c-7.788 54.204-54.528 96-110.852 96-61.757 0-112-50.243-112-112 0-41.505 22.694-77.809 56.324-97.156-3.712-25.965-6.844-47.86-9.488-66.333C45.956 198.464 0 261.963 0 336c0 97.047 78.953 176 176 176 71.87 0 133.806-43.308 161.11-105.192L311.358 352z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="capsule_text">
+                        Fully Wheelchair Accessible ADA-compliant venue
+                    </p>
+                </div>
+            </div>
+            <div class="map">
+                <iframe loading="lazy"
+                    src="https://maps.google.com/maps?q=215%20Sunnyside%20Blvd%2C%20Plainview%2C%20NY%2011803&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near"
+                    title="215 Sunnyside Blvd, Plainview, NY 11803"
+                    aria-label="215 Sunnyside Blvd, Plainview, NY 11803"></iframe>
+            </div>
+        </section>
+        <section class="service_areas_section">
+            <h1>Service Areas</h1>
+            <ul class="areas_list">
+                <li>Plainview</li>
+                <li>Hicksville</li>
+                <li>Bethpage</li>
+                <li>Old Bethpage</li>
+                <li>Farmingdale</li>
+                <li>Melville</li>
+                <li>Syosset</li>
+                <li>Woodbury</li>
+                <li>Jericho</li>
+                <li>Suffolk County</li>
+                <li>Oyster Bay</li>
+                <li>Huntington</li>
+                <li>Levittown</li>
+                <li>Garden City</li>
+                <li>Mineola</li>
+                <li>Westbury</li>
+                <li>Great Neck</li>
+                <li>Roslyn</li>
+                <li>Nassau County</li>
+            </ul>
+        </section>
+        <section class="begin_your_journey_section">
+            <h1>Begin your journey</h1>
+            <h2>Your Perfect Event Starts With One Conversation</h2>
+            <div class="divider_v1"></div>
+            <p>
+                Every extraordinary celebration begins with a single step. Let our team show you why Aura Ballroom is
+                Long Island’s most beloved luxury venue, and how we can bring your vision to life, exactly as you
+                imagined it.
+            </p>
+            <div class="buttons_bar">
+                <div class="book_a_venue_btn">Book a Venue</div>
+                <div class="check_availability_btn">Check Availability</div>
+            </div>
+        </section>
+        <section class="get_in_touch_section">
+            <h1>Get in Touch</h1>
+            <h2>Start Planning Your Dream Event</h2>
+            <div class="divider">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/public/assets/images/aura-ballroom-gold-divider.png' ); ?>" alt="aura ballroom gold divider">
+            </div>
+            <p>
+                Share your event details and our team will reach out within 24 hours to help bring your vision to life.
+            </p>
+            <div class="contact_info_area">
+                <div class="contact_information">
+                    <h3>Contact Information</h3>
+                    <div class="info_item">
+                        <div class="info_item_icon">
+                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-alt" viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="info_item_details">
+                            <h4 class="info_item_heading">Phone</h4>
+                            <span class="info_item_description">347-969-0597 / +1 (631) 703-1347</span>
+                        </div>
+                    </div>
+                    <div class="info_item">
+                        <div class="info_item_icon">
+                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-envelope" viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="info_item_details">
+                            <h4 class="info_item_heading">Email</h4>
+                            <span class="info_item_description">auraballroom@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="info_item">
+                        <div class="info_item_icon">
+                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="info_item_details">
+                            <h4 class="info_item_heading">Address</h4>
+                            <span class="info_item_description">215 Sunnyside Blvd Plainview, NY 11803
+                                Inside Holiday Inn Plainview</span>
+                        </div>
+                    </div>
+                    <div class="info_item">
+                        <div class="info_item_icon">
+                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-clock" viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="info_item_details">
+                            <h4 class="info_item_heading">Hours</h4>
+                            <span class="info_item_description">Mon – Sun: 11AM – 7PM
+                                Sunday: By Appointment</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="event_inquiry_form">
+                    <h3>Event Inquiry Form</h3>
+                    <p>Fill out the form below and we’ll get back to you shortly.</p>
+                    <form class="event-inquiry-form">
+                        <div class="form-group">
+                            <label>Full Name<span class="required">*</span></label>
+                            <div class="form-row">
+                                <div class="field-container">
+                                    <input type="text" id="fname" name="fname" required>
+                                    <label for="fname">First</label>
+                                </div>
+                                <div class="field-container">
+                                    <input type="text" id="lname" name="lname" required>
+                                    <label for="lname">Last</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone_no">Phone no<span class="required">*</span></label>
+                                <input type="tel" id="phone_no" name="phone_no" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address<span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="event_type">Event Type<span class="required">*</span></label>
+                                <select id="event_type" name="event_type" required>
+                                    <option value="wedding">Wedding</option>
+                                    <option value="corporate">Corporate</option>
+                                    <option value="party">Social Party</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="event_date">Event Date</label>
+                                <input type="date" id="event_date" name="event_date">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="guest_count">Estimated guest count</label>
+                            <input type="number" id="guest_count" name="guest_count" min="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message/Special Request</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Schedule a Venue Tour &rarr;</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+ 
+    <?php get_footer(); ?>
