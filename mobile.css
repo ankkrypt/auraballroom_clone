@@ -1,0 +1,158 @@
+@font-face {
+    font-family : inter;
+    src : url("./public/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display :swap;
+}
+@font-face {
+    font-family : inter;
+    src : url("./public/assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
+    font-display :swap;
+}
+@font-face {
+    font-family : Nanum Myeongjo ExtraBold;
+    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-ExtraBold.ttf") format("truetype");
+    font-display :swap;
+}
+@font-face {
+    font-family : Nanum Myeongjo Bold;
+    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Bold.ttf") format("truetype");
+    font-display :swap;
+}
+@font-face {
+    font-family : Nanum Myeongjo;
+    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf") format("truetype");
+    font-display :swap;
+}
+
+:root {
+    /* Brand Colors */
+    --e-global-color-primary: #25120E;
+    --e-global-color-secondary: #FEF5EA;
+    --e-global-color-accent: #FFB858;
+    --e-global-color-skin: #FFDCA6;
+    --e-global-color-lightbrown: #3A2118;
+    --e-global-color-white: #FFFFFF;
+    --e-global-color-rosegold: #FFCB84;
+    --e-global-color-darkestbrown: #1B0707;
+    --e-global-color-brown: #2B1B14;
+}
+
+/* Global */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--e-global-color-secondary);
+    color: var(--e-global-color-primary);
+}
+
+li {
+    list-style: none;
+}
+
+/* navbar section */
+.navbar{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    height: 4rem;
+    /* make the below value 100% in future */
+    width : 84%;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.logo>img {
+    height: 2rem;
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    gap : 0.3em;
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    width: 2rem;
+    z-index: 99;
+    transform: translateY(-50%);
+}
+
+.hamburger > div { 
+    border-top : 4px solid white;
+    width : 2rem;
+    border-radius: 1rem;
+}
+
+.navbar > .main_menu {
+    display : none;
+}
+
+.navbar > .main_menu.active {
+    list-style: none;
+    display: flex;         
+    flex-direction: column;
+    position: absolute;
+    z-index: 99;
+    background-color: var(--e-global-color-primary);
+    width: 100%;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    right: 0;
+    gap: 0;
+    padding: 0.5rem 0;
+}
+
+.navbar > .main_menu.active > .main_menu_item {
+    padding: 0.75rem 0;
+}
+
+.navbar > .main_menu.active > .main_menu_item > .navbar_submenu {
+    display: none;
+    position: static;
+    width: 100%;
+    min-width: 0;
+    margin: 0.5rem 0 0;
+    padding: 0.25rem 0;
+    background-color: var(--e-global-color-lightbrown);
+    border-top: 1px solid var(--e-global-color-accent);
+    border-bottom: 1px solid var(--e-global-color-accent);
+    box-shadow: inset 0 0 0 1px rgba(255, 184, 88, 0.15);
+}
+
+.navbar > .main_menu.active > .main_menu_item.submenu-open > .navbar_submenu {
+    display: flex;
+}
+
+.navbar > .main_menu.active > .main_menu_item.submenu-open > .navbar_submenu > .navbar_submenu_item {
+    padding: 0;
+    border-bottom: 1px solid rgba(255, 203, 132, 0.2);
+}
+
+.navbar > .main_menu.active > .main_menu_item.submenu-open > .navbar_submenu > .navbar_submenu_item:last-child {
+    border-bottom: 0;
+}
+
+.navbar > .main_menu.active > .main_menu_item.submenu-open > .navbar_submenu a {
+    display: block;
+    padding: 0.65rem 1rem;
+    color: var(--e-global-color-rosegold);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.btn{
+    display : none;
+}
+

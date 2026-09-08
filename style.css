@@ -144,9 +144,12 @@ li {
     position: relative;
 }
 
-.navbar>ul>li>a,
-.navbar>a {
-    color: var(--e-global-color-white);
+.navbar>ul>li>a{
+    color:  var(--e-global-color-white);
+    text-decoration: none;
+}
+.btn > a {
+    color:  var(--e-global-color-primary);
     text-decoration: none;
 }
 
@@ -200,6 +203,11 @@ li {
     cursor: pointer;
     display: flex;
     align-items: center;
+}
+
+
+.hamburger{
+    display: none;
 }
 
 .bg_video_section {
