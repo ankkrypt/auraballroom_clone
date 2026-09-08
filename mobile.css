@@ -1,31 +1,35 @@
 @font-face {
-    font-family : inter;
-    src : url("./public/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+    font-family: inter;
+    src: url("./public/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: normal;
-    font-display :swap;
+    font-display: swap;
 }
+
 @font-face {
-    font-family : inter;
-    src : url("./public/assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+    font-family: inter;
+    src: url("./public/assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: italic;
-    font-display :swap;
+    font-display: swap;
 }
+
 @font-face {
-    font-family : Nanum Myeongjo ExtraBold;
-    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-ExtraBold.ttf") format("truetype");
-    font-display :swap;
+    font-family: Nanum Myeongjo ExtraBold;
+    src: url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-ExtraBold.ttf") format("truetype");
+    font-display: swap;
 }
+
 @font-face {
-    font-family : Nanum Myeongjo Bold;
-    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Bold.ttf") format("truetype");
-    font-display :swap;
+    font-family: Nanum Myeongjo Bold;
+    src: url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Bold.ttf") format("truetype");
+    font-display: swap;
 }
+
 @font-face {
-    font-family : Nanum Myeongjo;
-    src : url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf") format("truetype");
-    font-display :swap;
+    font-family: Nanum Myeongjo;
+    src: url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf") format("truetype");
+    font-display: swap;
 }
 
 :root {
@@ -60,26 +64,26 @@ li {
 }
 
 /* navbar section */
-.navbar{
-    display : flex;
+.navbar {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
     height: 4rem;
     /* make the below value 100% in future */
-    width : 84%;
+    width: 100%;
     flex-wrap: nowrap;
     position: relative;
 }
 
 .logo>img {
-    height: 2rem;
+    height: 4rem;
 }
 
-.hamburger{
+.hamburger {
     display: flex;
     flex-direction: column;
-    gap : 0.3em;
+    gap: 0.3em;
     position: absolute;
     right: 0.75rem;
     top: 50%;
@@ -88,19 +92,19 @@ li {
     transform: translateY(-50%);
 }
 
-.hamburger > div { 
-    border-top : 4px solid white;
-    width : 2rem;
+.hamburger>div {
+    border-top: 4px solid white;
+    width: 2rem;
     border-radius: 1rem;
 }
 
-.navbar > .main_menu {
-    display : none;
+.navbar>.main_menu {
+    display: none;
 }
 
-.navbar > .main_menu.active {
+.navbar>.main_menu.active {
     list-style: none;
-    display: flex;         
+    display: flex;
     flex-direction: column;
     position: absolute;
     z-index: 99;
@@ -114,11 +118,11 @@ li {
     padding: 0.5rem 0;
 }
 
-.navbar > .main_menu.active > .main_menu_item {
+.navbar>.main_menu.active>.main_menu_item {
     padding: 0.75rem 0;
 }
 
-.navbar > .main_menu.active > .main_menu_item > .navbar_submenu {
+.navbar>.main_menu.active>.main_menu_item>.navbar_submenu {
     display: none;
     position: static;
     width: 100%;
@@ -131,20 +135,20 @@ li {
     box-shadow: inset 0 0 0 1px rgba(255, 184, 88, 0.15);
 }
 
-.navbar > .main_menu.active > .main_menu_item.submenu-open > .navbar_submenu {
+.navbar>.main_menu.active>.main_menu_item.submenu-open>.navbar_submenu {
     display: flex;
 }
 
-.navbar > .main_menu.active > .main_menu_item.submenu-open > .navbar_submenu > .navbar_submenu_item {
+.navbar>.main_menu.active>.main_menu_item.submenu-open>.navbar_submenu>.navbar_submenu_item {
     padding: 0;
     border-bottom: 1px solid rgba(255, 203, 132, 0.2);
 }
 
-.navbar > .main_menu.active > .main_menu_item.submenu-open > .navbar_submenu > .navbar_submenu_item:last-child {
+.navbar>.main_menu.active>.main_menu_item.submenu-open>.navbar_submenu>.navbar_submenu_item:last-child {
     border-bottom: 0;
 }
 
-.navbar > .main_menu.active > .main_menu_item.submenu-open > .navbar_submenu a {
+.navbar>.main_menu.active>.main_menu_item.submenu-open>.navbar_submenu a {
     display: block;
     padding: 0.65rem 1rem;
     color: var(--e-global-color-rosegold);
@@ -152,7 +156,119 @@ li {
     text-decoration: none;
 }
 
-.btn{
-    display : none;
+.btn {
+    display: none;
 }
 
+
+/* hero1_section */
+.bg_video_text_overlay>h2 {
+    color: #FFB858;
+    padding: 1rem;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.bg_video_text_overlay>h1 {
+    color: #ffdca6;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+/* hero_2 section */
+.hero_2 h2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #25120e;
+}
+
+.hero_2 h1 {
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.hero_2 p {
+    color: #25120e;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.feature_bar {
+    padding: 1rem;
+}
+
+/* services section */
+.services h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.services h1 {
+    color: var(--e-global-color-rosegold);
+    width: 100%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.services>div>p {
+    color: #D9CFC4;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn_explore_all_services {
+    padding: 1rem 2rem;
+    cursor: pointer;    
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.services_cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    padding: 4rem 0rem;
+}
+
+.services_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 80vw;
+}
+
+.services_card>img {
+    border: 2px solid var(--e-global-color-accent);
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.services_card>h2 {
+    padding-top: 1rem;
+    font-family: "Nanum Myeongjo", Sans-serif;
+    font-size: 20px;
+}
+
+.services_card>p {
+    color: var(--e-global-color-white);
+    padding: 1rem;
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}

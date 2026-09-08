@@ -65,3 +65,13 @@
 		transform: none;
 	}
 }
+
+@media (max-width: 480px) {
+	.animate-from-left,
+	.animate-from-right,
+	.animate-from-bottom {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+}
