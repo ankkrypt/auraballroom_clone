@@ -135,19 +135,16 @@
 }
 
 .cards_container {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem;
 }
 
 .btn_book_a_private_tour {
     font-size: 16px;
 }
 
+
+/* our venue section */
 .our_venue_section>h2 {
     font-size: 20px;
 }
@@ -158,33 +155,8 @@
     text-align: center;
 }
 
-.our_venue_content {
-    flex-direction: column;
-}
-
-.our_venue_content>div>img {
-    border-radius: 1rem;
-    height: auto;
-    max-width: 80vw;
-}
-
-.our_venue_features {
-    gap: 1rem;
-    height: auto;
-}   
-
-.our_venue_feature {
-    height: auto;
-}
-
 .a_glimpse_of_the_aura_experience_section>h2 {
     font-size: 20px;
-}
-
-.a_glimpse_of_the_aura_experience_category_bar {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2rem 0rem;
 }
 
 .a_glimpse_of_the_aura_experience_category_item {

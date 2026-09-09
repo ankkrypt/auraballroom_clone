@@ -100,7 +100,42 @@
     width: auto;
 }
 
+
+
+/* why choose auraballroom section */
+.cards_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* our venue section */
+.our_venue_content {
+    flex-direction: column;
+}
+
+.our_venue_content>div>img {
+    border-radius: 1rem;
+    height: auto;
+    max-width: 80vw;
+}
+
+.our_venue_features {
+    gap: 1rem;
+    height: auto;
+}   
+
+.our_venue_feature {
+    height: auto;
+}
+
+
 /* a_glimpse_of_the_aura_experience_section */
+
+.a_glimpse_of_the_aura_experience_category_bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
 .photo_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
