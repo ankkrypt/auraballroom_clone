@@ -210,6 +210,7 @@ li {
     display: none;
 }
 
+/* hero1_section */
 .bg_video_section {
     display: grid;
     width: 100%;
@@ -652,7 +653,7 @@ li {
 
 .photo_grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
 }
@@ -713,10 +714,10 @@ li {
     background-color: var(--e-global-color-lightbrown);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     border-radius: 0.5rem;
     padding: 1.5rem;
-    height: 70vh;
 }
 
 .customer_review_pfp>svg {

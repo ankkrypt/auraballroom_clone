@@ -1,0 +1,154 @@
+/* navbar section */
+.navbar {
+    padding: 0 1rem;
+    height: 4rem;
+    position: relative;
+}
+
+.logo>img {
+    height: 4rem;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 2rem;
+    z-index: 99;
+    transform: translateY(-50%);
+}
+
+.hamburger>div {
+    border-top: 4px solid white;
+    width: 2rem;
+    border-radius: 1rem;
+}
+
+.navbar>.main_menu {
+    display: none;
+}
+
+.navbar>.main_menu.active {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 99;
+    background-color: var(--e-global-color-primary);
+    width: 100%;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    right: 0;
+    gap: 0;
+    padding: 0.5rem 0;
+}
+
+.navbar>.main_menu.active>.main_menu_item {
+    padding: 0.75rem 0;
+}
+
+.navbar>.main_menu.active>.main_menu_item>.navbar_submenu {
+    display: none;
+    position: static;
+    width: 100%;
+    min-width: 0;
+    margin: 0.5rem 0 0;
+    padding: 0.25rem 0;
+    background-color: var(--e-global-color-lightbrown);
+    border-top: 1px solid var(--e-global-color-accent);
+    border-bottom: 1px solid var(--e-global-color-accent);
+    box-shadow: inset 0 0 0 1px rgba(255, 184, 88, 0.15);
+}
+
+.navbar>.main_menu.active>.main_menu_item.submenu-open>.navbar_submenu {
+    display: flex;
+}
+
+.navbar>.main_menu.active>.main_menu_item.submenu-open>.navbar_submenu>.navbar_submenu_item {
+    padding: 0;
+    border-bottom: 1px solid rgba(255, 203, 132, 0.2);
+}
+
+.navbar>.main_menu.active>.main_menu_item.submenu-open>.navbar_submenu>.navbar_submenu_item:last-child {
+    border-bottom: 0;
+}
+
+.navbar>.main_menu.active>.main_menu_item.submenu-open>.navbar_submenu a {
+    display: block;
+    padding: 0.65rem 1rem;
+    color: var(--e-global-color-rosegold);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+/* hero_2 section */
+.hero_2 p {
+    width: 90vw;
+}
+
+
+/* services section */
+.services h1 {
+    width: auto;
+}
+
+.services>div>p {
+    width: auto;
+}
+
+/* a_glimpse_of_the_aura_experience_section */
+.photo_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+/* what_our_clients_say_section */
+.customer_review_container {
+    padding: 6rem 1rem;
+}
+
+
+/* where_we_serve_section */
+.capsule {
+    border-radius: 50%;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.capsule_text {
+    padding: 1rem;
+    text-align: left;    
+    font-size: 16px;
+}
+
+/* contact form section */
+.contact_info_area {
+    flex-direction: column;
+    width: auto;
+}
+
+.contact_information {
+    width: auto;
+}
+
+.event_inquiry_form {
+    width: auto;
+}
+
+
+/* footer section */
+.divider {
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.divider > img {
+    max-width: 100%;
+}
