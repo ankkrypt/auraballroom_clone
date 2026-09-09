@@ -1,67 +1,3 @@
-@font-face {
-    font-family: inter;
-    src: url("./public/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: inter;
-    src: url("./public/assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
-    font-weight: 100 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Nanum Myeongjo ExtraBold;
-    src: url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-ExtraBold.ttf") format("truetype");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Nanum Myeongjo Bold;
-    src: url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Bold.ttf") format("truetype");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Nanum Myeongjo;
-    src: url("./public/assets/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf") format("truetype");
-    font-display: swap;
-}
-
-:root {
-    /* Brand Colors */
-    --e-global-color-primary: #25120E;
-    --e-global-color-secondary: #FEF5EA;
-    --e-global-color-accent: #FFB858;
-    --e-global-color-skin: #FFDCA6;
-    --e-global-color-lightbrown: #3A2118;
-    --e-global-color-white: #FFFFFF;
-    --e-global-color-rosegold: #FFCB84;
-    --e-global-color-darkestbrown: #1B0707;
-    --e-global-color-brown: #2B1B14;
-}
-
-/* Global */
-*,
-::before,
-::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: var(--e-global-color-secondary);
-    color: var(--e-global-color-primary);
-}
-
-li {
-    list-style: none;
-}
 
 /* navbar section */
 .navbar {
@@ -271,4 +207,218 @@ li {
     font-family: "Poppins", Sans-serif;
     font-size: 14px;
     font-weight: 300;
+}
+
+
+/* why choose auraballroom section */
+.why_choose_aura_ballroom h2 {
+    font-size: 20px;
+}
+
+.why_choose_aura_ballroom h1 {
+    width: 100%;
+    font-size: 40px;
+}
+
+.why_choose_aura_ballroom>p {
+    color: var(--e-global-color-primary);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cards_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.btn_book_a_private_tour {
+    font-size: 16px;
+}
+
+.our_venue_section>h2 {
+    font-size: 20px;
+}
+
+.our_venue_section>h1 {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.our_venue_content {
+    flex-direction: column;
+}
+
+.our_venue_content>div>img {
+    border-radius: 1rem;
+    height: auto;
+    max-width: 80vw;
+}
+
+.our_venue_features {
+    gap: 1rem;
+    height: auto;
+}   
+
+.our_venue_feature {
+    height: auto;
+}
+
+.a_glimpse_of_the_aura_experience_section>h2 {
+    font-size: 20px;
+}
+
+.a_glimpse_of_the_aura_experience_category_bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+.a_glimpse_of_the_aura_experience_category_item {
+    font-size: 12px;
+}
+
+.photo_grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.btn_explore_full_gallery {
+    font-size: 16px;
+}
+
+.what_our_clients_say_section>h2 {
+    font-size: 20px;
+}
+
+.what_our_clients_say_section>h1 {
+    font-size: 40px;
+}
+
+.what_our_clients_say_section>p {
+    font-size: 18px;
+}
+
+.customer_review_container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 1rem;
+}
+
+.where_we_serve_section{
+    padding : 4rem 1rem;
+}
+
+.where_we_serve_section>h2 {
+    font-size: 20px;
+}
+
+.where_we_serve_section>h1 {
+    font-size: 40px;
+}
+
+.where_we_serve_section>p {
+    max-width: 800px;
+    font-size: 18px;
+}
+
+.capsule_pointers {
+    flex-direction: column;
+}
+
+.capsule {
+    width: 90vw;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.capsule_text {
+    text-align: center;    
+    font-size: 16px;
+}
+
+.map>iframe {
+    width: 90vw;
+    height: 60vh;
+}
+
+.areas_list {
+    padding: 1rem;
+    width: auto;
+    font-size: 15px;
+}
+
+.begin_your_journey_section>h1 {
+    font-size: 20px;
+}
+
+.begin_your_journey_section>h2 {
+    width: auto;
+    font-size: 40px;
+}
+
+.begin_your_journey_section>p {
+    width: auto;
+}
+
+.get_in_touch_section>h1 {
+    font-size: 20px;
+}
+
+.get_in_touch_section>h2 {
+    width: auto;
+    font-size: 40px;
+}
+
+.get_in_touch_section>p {
+    width: auto;
+    font-size: 18px;
+}
+
+.contact_info_area {
+    flex-direction: column;
+    width: auto;
+}
+
+.contact_information {
+    width: auto;
+}
+
+.event_inquiry_form {
+    width: auto;
+}
+
+footer {
+    padding: 2rem 1rem;
+}
+
+.footer-nav {
+    flex-direction: column;
+}
+
+.footer_brand_description {
+    width: auto;
+}
+
+.divider {
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.divider > img {
+    max-width: 100%;
+}
+
+.footer_copyright_bar {
+    flex-direction: column;
+    gap: 1rem;
 }
