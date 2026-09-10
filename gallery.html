@@ -1,40 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO meta data -->
+    <title>Home - Aura</title>
+    <meta name="description" content="YOUR PERFECT EVENT SPACE" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://aurballroom.com" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- css files -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./tablet.css" media="(max-width:1024px)"/>
+    <link rel="stylesheet" href="./mobile.css" media="(max-width:480px)"/>
+    <link rel="stylesheet" href="animation.css" />
+
+    <!-- script -->
+    <script src="script.js" defer></script>
+    <script src="mobile.js" defer></script>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="./public/assets/images/cropped-Aura-Logo-no-bg-without-AB.png" alt="Aura Logo" />
+                <img src="/public/assets/images/cropped-Aura-Logo-no-bg-without-AB.png" alt="Aura Logo" />
             </div>
-            <ul>
-                <li><a href="../../../../" class="active">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li>
-                    <a href="#">Services</a>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="main_menu">
+                <li class="main_menu_item"><a href="/">Home</a></li>
+                <li class="main_menu_item"><a href="/about.html">About</a></li>
+                <li class="main_menu_item services_menu_item">
+                    <a href="#" class="services_menu_toggle" aria-expanded="false">Services</a>
                     <ul class="navbar_submenu">
-                        <li><a href="#">Wedding Venue</a></li>
-                        <li><a href="#">Banquet Hall Plainview, NY</a></li>
-                        <li><a href="#">Corporate Events</a></li>
+                        <li class="navbar_submenu_item"><a href="#">Wedding Venue</a></li>
+                        <li class="navbar_submenu_item"><a href="#">Banquet Hall Plainview, NY</a></li>
+                        <li class="navbar_submenu_item"><a href="#">Corporate Events</a></li>
                     </ul>
                 </li>
-                <li><a href="./gallery.html">Gallery</a></li>
-                <li><a href="./contact/index.html">Contact</a></li>
-                <li><a href="./blog.html">Blog</a></li>
+                <li class="main_menu_item"><a href="/gallery.html" class="active">Gallery</a></li>
+                <li class="main_menu_item"><a href="/contact">Contact</a></li>
+                <li class="main_menu_item"><a href="/blog.html">Blog</a></li>
             </ul>
-            <a href="/">
-                <div class="btn">
+            <div class="btn">
+                <a href="/" id="book_tour_btn">
                     Book Tour
-                </div>
-            </a>
+                </a>
+            </div>
         </nav>
     </header>
+    <footer class="site-footer">
+        <div class="footer-nav">
+            <div class="footer_brand_space">
+                <div class="footer_brand_logo">
+                    <img src="/public/assets/images/AURA-LOGO.png" alt="Aura Logo" />
+                </div>
+                <div class="footer_brand_description">
+                    Long Island’s premier luxury event venue for weddings, corporate events, and private celebrations.
+                </div>
+            </div>
+            <div class="footer_quick_links">
+                <ul>
+                    <li>
+                        <h2>Quick Links</h2>
+                    </li>
+                    <li><a href="home_url( '/' )">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/contact/index.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_event_types">
+                <ul>
+                    <li>
+                        <h2>Event Types</h2>
+                    </li>
+                    <li><a href="#">Weddings & Receptions</a></li>
+                    <li><a href="#">Corporate Events</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact_us">
+                <ul>
+                    <li>
+                        <h2>Contact Us</h2>
+                    </li>
+                    <li>215 Sunnyside Blvd Plainview, NY 11803</li>
+                    <li>Inside Holiday Inn Plainview</li>
+                    <li>347-969-0597</li>
+                    <li>+1 (631) 703-1347</li>
+                    <li>auraballroom@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="divider">
+            <img src="./public/assets/images/aura-ballroom-decorative-line-1024x2.png" alt="Footer Divider" />
+        </div>
+        <div class="footer_copyright_bar">
+            <div class="footer_copyright_statement">
+                © 2026 Aura Ballroom. All Rights Reserved.
+            </div>
+            <div class="footer_powered_by_statement">
+                Powered By DAM Networks
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
